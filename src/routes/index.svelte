@@ -1,50 +1,23 @@
 <script>
-	import successkid from 'images/successkid.jpg';
 </script>
 
-<style>
-	h1, figure, p {
-		text-align: center;
-		margin: 0 auto;
-	}
-
-	h1 {
-		font-size: 2.8em;
-		text-transform: uppercase;
-		font-weight: 700;
-		margin: 0 0 0.5em 0;
-	}
-
-	figure {
-		margin: 0 0 1em 0;
-	}
-
-	img {
-		width: 100%;
-		max-width: 400px;
-		margin: 0 0 1em 0;
-	}
-
-	p {
-		margin: 1em auto;
-	}
-
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
-		}
-	}
-</style>
-
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Movie Info</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Didact Gothic" rel="stylesheet">
+	<style>
+		html, body {
+			font-family: 'Didact Gothic';
+			box-sizing: border-box;
+			padding: 0;
+		}
+	</style>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1>Test</h1>
+<span class="icon">
+	<i class="fa-solid fa-address-card"></i>
+</span>
 
-<figure>
-	<img alt="Success Kid" src="{successkid}">
-	<figcaption>Have fun with Sapper!</figcaption>
-</figure>
-
-<p><strong>Try editing this file (src/routes/index.svelte) to test live reloading.</strong></p>
+<style>
+</style>
