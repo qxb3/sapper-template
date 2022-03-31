@@ -4,10 +4,6 @@
 <svelte:head>
 	<title>Title</title>
 	<style>
-		*, *:before, *:after {
-			box-sizing: inherit;
-			}
-
 		html, body {
 			font-family: 'Euclid Circular A';
 			box-sizing: border-box;
